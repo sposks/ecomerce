@@ -1,16 +1,25 @@
 <?php
 
 
+
 class Contact extends Controller
 {
  
+
+    private $productModel;
+
+    public function __construct()
+    {
+        
+    }
+
     // Page d'accueil
     public function index()
     {
-        // Use the helper function to get the singleton instance of Engine
-        return renderTemplate('client/contact/index', ['title' => 'Djebabla']);
-    }
+      
 
+       return renderTemplate('client/contact/index', []);
+    }
 
 
 

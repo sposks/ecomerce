@@ -1,6 +1,11 @@
 <?php $this->layout('layout/parent', ['title' => 'Home']) ?>
 
-<section id="contact-details" class="section-p1">
+<section id="page-header" class="about-header">
+        <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE, We love to hear from you!</p>
+    </section>
+
+    <section id="contact-details" class="section-p1">
         <div class="details">
             <span>GET IN TOUCH</span>
             <h2>Visit one of our agency loction or Contact us today</h2>
